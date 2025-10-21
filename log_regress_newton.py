@@ -51,6 +51,11 @@ log_reg = LogisticRegression()
 log_reg.fit(x_train, y_train)
 
 util.plot(x_train, y_train, theta=log_reg.theta)
-plt.show()
+
 print("Theta is: ", log_reg.theta)
 print("The accuracy on training set is: ", np.mean(log_reg.predict(x_train) == y_train))
+
+util.plot(x_valid, y_valid, log_reg.theta)
+print("The accuracy on validation set is: ", np.mean(log_reg.predict(x_valid) == y_valid))
+
+plt.show()
