@@ -94,7 +94,7 @@ Exploring AI/ML through mathematical foundations
 
 ---
 
-## 🖤 Acknowledgment
+## Acknowledgment
 
 Inspired by **Andrew Ng’s ML lectures** and **CS229 materials**.
 Developed to strengthen mathematical intuition and implementation skills.
